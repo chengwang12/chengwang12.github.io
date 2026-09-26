@@ -422,6 +422,23 @@ p {
 	color: var(--muted);
 }
 
+.member-list .supervision-note {
+	display: block;
+	margin-top: 6px;
+	padding: 6px 10px;
+	border-left: 3px solid #8cc7e3;
+	border-radius: 6px;
+	background: #edf8fd;
+	color: #3d7fa4;
+	font-size: 0.9em;
+	line-height: 1.45;
+}
+
+.member-list .supervision-note a {
+	color: #2f7197;
+	font-weight: 800;
+}
+
 .member-list .career-note,
 .cohort .career-note {
 	color: #4f9fc7;
